@@ -1,3 +1,5 @@
 sudo: false
 language: ruby
 before_install: gem install bundler -v 1.12.3
+script:
+  - bundle exec rspec
